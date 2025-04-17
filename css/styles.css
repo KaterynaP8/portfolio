@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: 'Inter', sans-serif;
+    background: #f5e8b6;
+    color: #595c56;
+    line-height: 1.6;
+    padding: 20px;
+  }
+
+.frontend{
+    color: #595c56;
+}
+
+  header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #282823;
+  }
+
+  header p {
+    font-size: 1.2rem;
+    
+  }
+
+  section {
+    max-width: 700px;
+    margin: 0 auto 40px;
+  }
+
+  .about img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #282823;
+  }
+
+  ul.skills {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+
+  ul.skills li {
+    background: #e9be5f;
+    padding: 6px 12px;
+    border-radius: 20px;
+  }
+
+  .projects a {
+
+    margin-bottom: 10px;
+    background: #e9be5f;
+    padding: 6px 12px;
+    border-radius: 20px;
+   color: #595c56;
+   text-decoration: none;
+    
+  }
+  .sertificate a{ 
+    background: #e9be5f;
+    padding: 6px 12px;
+    border-radius: 20px;
+   color: #595c56;
+   text-decoration: none;
+  }
+  .contacts a{
+   
+    padding: 6px 12px;
+  text-decoration-color: #e9be5f;
+   color: #595c56;
+   
+  }
+
+  footer {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #888;
+    margin-top: 40px;
+  }
